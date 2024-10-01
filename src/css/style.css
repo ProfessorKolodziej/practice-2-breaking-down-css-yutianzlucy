@@ -1,1 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lekton:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap')
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1E1E1E;
+}
+
+.page-title {
+    color: red;
+}
+
+.practice-problems{
+    display: inline-flex;
+    gap: 150px;
+}
+
+.style-choice,
+.find-grid,
+.similar-font {
+    width: 800px;
+    height: 800px;
+}
+
+.similar-font {
+    background-color: #3D3E61;
+    padding: 100px
+}
+
+.similar-font-headline {
+    line-height: 1;
+    text-transform: uppercase;
+    font-size: 64px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    color: #FFBF43
+}
+
+.similar-font-content {
+    font-size: 20px;
+    font-style: normal;
+    line-height: 1.5;
+    font-family: "Lekton", monospace;
+    font-weight: 400;
+    color: #FFFFFF
+}
+
+.find-grid {
+    background-color: #FFFFFF;
+    display: grid;
+    grid-template-rows: repeat(8, 100px);
+    grid-template-columns: repeat(8, 100px);
+}
+
+.find-grid-headline {
+    margin-top: 0;
+    font-size: 64px;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 700;
+    grid-column: 2 / span 6;
+    grid-row: 3 / span 2;
+}
+
+.find-grid-content {
+    font-size: 20px;
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    grid-column: 2 / span 6;
+    grid-row: 5 / span 4;
+    columns: 2;
+}
+
+.find-grid-content p {
+    break-inside: avoid;
+    margin-top: 0;
+}
+
+.style-choice {
+    background: url('../images/p3 background.png');
+        background-color:#CEBDF1;
+    padding: 100px;
+      }      
+
+.content-container {
+    transform: rotate(-15deg);
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-size: 20px;
+}
+.style-choice-headline {
+    margin: 100px 0;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-size: 64px;
+}
 
